@@ -1,6 +1,3 @@
-plot(mtcars$disp,mtcars$mpg)
-title(main="зависимость расхода топлива от объема двигателя")
-title(xlab="cubic inches")
 ￼plot(
 ￼mpg ~ disp,
 ￼data = mtcars,
@@ -8,4 +5,5 @@ title(xlab="cubic inches")
 ￼ylab="миль на галлон",
 ￼xlab = "куб дюймы"
 ￼)
+
 
